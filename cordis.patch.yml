@@ -1,0 +1,10 @@
+# dsh-aionui-layout bundle patch.
+#
+# Declared as this package's `dsh.bundle.patch`, so `dsh plugin --profile web
+# add link:<this dir>` appends `dsh-aionui-layout` to the profile's
+# `dsh.profile.bundles` and the profile boot merges the single row below.
+# Installing by hand instead? Add the same row to the profile's own
+# cordis.patch.yml.
+- insert:
+    - id: aionui-layout
+      name: 'dsh-aionui-layout'

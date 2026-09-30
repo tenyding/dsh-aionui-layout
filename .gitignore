@@ -1,0 +1,12 @@
+# dependencies / build output — the shipped client bundle is committed on purpose
+node_modules/
+pnpm-debug.log*
+npm-debug.log*
+yarn-error.log*
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
